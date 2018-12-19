@@ -1,5 +1,5 @@
-var kittens = ["Milo", "Otis", "Garfield"];
 
+var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name){
   return kittens.push("Ralph")
@@ -29,4 +29,7 @@ function destructivelyRemoveFirstKitten(name){
  function removeFirstKitten(name){
    return kittens.slice(1)
  }
+
+
+
 
